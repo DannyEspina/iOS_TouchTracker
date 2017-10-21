@@ -10,8 +10,11 @@ import UIKit
 import CoreGraphics
 
 struct Line {
+    
     var begin = CGPoint.zero
     var end = CGPoint.zero
+    var lineWidth: CGFloat = 10
+    var changeColor: UIColor = .black
 }
 extension Line {
     
